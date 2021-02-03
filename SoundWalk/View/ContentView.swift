@@ -18,7 +18,8 @@ struct ContentView: View {
         VideoClip(videoName: "Birdsong_7.1.4", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_7.1.4.wav"),
         VideoClip(videoName: "Birdsong_7.1", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_7.1.wav"),
         VideoClip(videoName: "Birdsong_BR_Cube", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_BR_Cube.wav"),
-        VideoClip(videoName: "Birdsong_O3A", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_O3A.wav")
+        VideoClip(videoName: "Birdsong_O3A", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_O3A.wav"),
+        VideoClip(videoName: "Channels", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/channels_5_1_4_adm.wav")
     ]
     
     var body: some View {
