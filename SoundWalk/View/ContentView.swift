@@ -11,21 +11,14 @@ import SwiftUI
 struct ContentView: View {
     @State var spatialization = true
     let videoClips = [
-        VideoClip(videoName: "Birdsong_5.1.2", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_5.1.2.wav"),
-        VideoClip(videoName: "Birdsong_5.1.4", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_5.1.4.wav"),
-        VideoClip(videoName: "Birdsong_5.1", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_5.1.wav"),
-        VideoClip(videoName: "Birdsong_7.1.2", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_7.1.2.wav"),
-        VideoClip(videoName: "Birdsong_7.1.4", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_7.1.4.wav"),
-        VideoClip(videoName: "Birdsong_7.1", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_7.1.wav"),
-        VideoClip(videoName: "Birdsong_BR_Cube", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_BR_Cube.wav"),
-        VideoClip(videoName: "Birdsong_O3A", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_O3A.wav"),
-        VideoClip(videoName: "Channels", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/channels_5_1_4_adm.wav")
+        VideoClip(videoName: "Birdsong 5.1", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_5.1.mp4"),
+        VideoClip(videoName: "Birdsong 7.1", videoUrl: "http://my-vm.marusatest.bbctest01.uk/hackweek/Birdsong_7.1.mp4")
     ]
     
     var body: some View {
             NavigationView {
                 VStack {
-                    Text("Birdsong files").font(.title).multilineTextAlignment(.center).padding(10).minimumScaleFactor(0.5)
+                    Text("Test files").font(.title).multilineTextAlignment(.center).padding(10).minimumScaleFactor(0.5)
                     Spacer()
                     ForEach(0..<videoClips.count){ videoClip in
                         HStack{
